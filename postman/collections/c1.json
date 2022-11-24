@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "ae63ed92-da9e-49e8-9414-715b0d0b4552",
+		"_postman_id": "b4f8485c-a3dc-42b4-87d3-3e3c6a34543a",
 		"name": "c1",
 		"description": "Buy or rent spacecrafts",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "12420868-ae63ed92-da9e-49e8-9414-715b0d0b4552"
+		"_uid": "12420868-b4f8485c-a3dc-42b4-87d3-3e3c6a34543a"
 	},
 	"item": [
 		{
 			"name": "Read a spacecraft",
-			"id": "a1a9cfc6-3a11-4f66-9fc4-99a769a8c83a",
+			"id": "9598bf1e-7def-41b5-920f-8837fd38629f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -41,7 +41,7 @@
 			},
 			"response": [
 				{
-					"id": "10150385-f9d5-4878-bbc6-af946d1507d1",
+					"id": "99261d1e-5f90-4fdc-9016-dc86914808f8",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -72,6 +72,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -82,7 +83,7 @@
 					"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"ex enim Duis\",\n  \"type\": \"probe\",\n  \"description\": \"commodo\"\n}"
 				},
 				{
-					"id": "44737f3d-663c-423a-8dd8-39cc97e3de58",
+					"id": "745ec20e-542a-4a31-b98d-73cb66c8ea61",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -113,6 +114,7 @@
 					"status": "Not Found",
 					"code": 404,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -123,7 +125,7 @@
 					"body": "{\n  \"message\": \"d\"\n}"
 				},
 				{
-					"id": "8fa9a799-616d-44fe-b196-dd44a31275ca",
+					"id": "aae8d5ca-8896-4786-a6ec-d65c10118520",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -154,6 +156,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
